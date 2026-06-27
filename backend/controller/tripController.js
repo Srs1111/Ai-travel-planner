@@ -1,6 +1,6 @@
 const { generateItinerary } = require("../service/geminiService");
 
-const Trip = require("../models/Trip")
+const Trip = require("../models/trip")
 
 const createTrip = async (req, res) => {
   
